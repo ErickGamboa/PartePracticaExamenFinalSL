@@ -20,10 +20,7 @@ $customizerHidden = 'customizer-hide';
       <div class="flex-row text-center mx-auto">
         {{-- <img src="{{asset('assets/img/pages/login-'.$configData['style'].'.png')}}" alt="Auth Cover Bg color" width="520" class="img-fluid authentication-cover-img" data-app-light-img="pages/login-light.png" data-app-dark-img="pages/login-dark.png"> --}}
         <div class="mx-auto">
-          <h3>Pagina de ERICK!!!</h3>
-          <p>
-            Perfectly suited for all level of developers which helps you to <br> kick start your next big projects & Applications.
-          </p>
+          <h3>Examen Final ISW811 - Erick Gamboa Rodríguez-</h3>
         </div>
       </div>
     </div>
@@ -32,16 +29,7 @@ $customizerHidden = 'customizer-hide';
     <!-- Login -->
     <div class="d-flex col-12 col-lg-5 col-xl-4 align-items-center authentication-bg p-sm-5 p-4">
       <div class="w-px-400 mx-auto">
-        <!-- Logo -->
-        <div class="app-brand justify-content-center mb-4">
-          <a href="{{url('/')}}" class="app-brand-link gap-2 mb-2">
-            <span class="app-brand-logo demo">@include('_partials.macros')</span>
-            <span class="app-brand-text demo h3 mb-0 fw-bold">{{config('variables.templateName')}}</span>
-          </a>
-        </div>
-        <!-- /Logo -->
-        <h4 class="mb-2">PAGINA HOSTEADA POR ERICK</h4>
-        <p class="mb-4">Please sign-in to your account and start the adventure</p>
+        <h4 class="mb-2">Login</h4>
 
         @if (session('status'))
         <div class="alert alert-success mb-1 rounded-0" role="alert">
@@ -100,24 +88,6 @@ $customizerHidden = 'customizer-hide';
           </a>
           @endif
         </p>
-
-        <div class="divider my-4">
-          <div class="divider-text">or</div>
-        </div>
-
-        <div class="d-flex justify-content-center">
-          <a href="javascript:;" class="btn btn-icon btn-label-facebook me-3">
-            <i class="tf-icons bx bxl-facebook"></i>
-          </a>
-
-          <a href="javascript:;" class="btn btn-icon btn-label-google-plus me-3">
-            <i class="tf-icons bx bxl-google-plus"></i>
-          </a>
-
-          <a href="javascript:;" class="btn btn-icon btn-label-twitter">
-            <i class="tf-icons bx bxl-twitter"></i>
-          </a>
-        </div>
       </div>
     </div>
     <!-- /Login -->

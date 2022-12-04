@@ -75,3 +75,7 @@ VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 - Posteriormente en otra consola ejecutas `php artisan serve`
 
 - Copias el url que te da este comando, lo pegas en el brawser y pruebas el funcionamiento del sistema
+
+# URL del sitio hosteado 
+
+- `https://partepracticaexamenfinalsl-production.up.railway.app/`

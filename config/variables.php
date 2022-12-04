@@ -1,9 +1,9 @@
 <?php
   // Variables
   return [
-    "creatorName" => "EL RINCON DE ISMA",
-    "creatorUrl" => "https://me.elrincondeisma.com/",
-    "templateName" => "ERDI",
+    "creatorName" => "Erick Gamboa ",
+    "creatorUrl" => "https://github.com/ErickGamboa/PartePracticaExamenFinalSL",
+    "templateName" => "Erick",
     "templateSuffix" => "Bootstrap Admin Template",
     "templateVersion" => "1.0.0",
     "templateFree" => true,
